@@ -1,0 +1,22 @@
+.pr-of-day{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    // background: rgb(133, 4, 184);
+    // background-color: #7400b5;
+    // background-image: linear-gradient(333deg, #7400b5 0%, #8504b8 50%, #7400b5 100%);
+    margin: 20px 0;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+
+    @media screen and (max-width: 840px) {
+        & {
+            width: 100%;
+        }
+    }
+}
